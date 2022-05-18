@@ -6,7 +6,7 @@ import ListTasks from "./components/ListTasks";
 function App() {
   return (
     <div className="up">
-            <h2>TELL ME AYNTHING </h2>
+            <h1>TELL ME AYNTHING </h1>
       <AddTask />
       <ListTasks />
     </div>

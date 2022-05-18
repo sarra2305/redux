@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { task_done } from "../JS/Actions/ToDosActions";
+import { task_done } from "../Reduxx/Actions/ToDosActions";
 import Task from "./Task";
 
 const ListTasks = () => {

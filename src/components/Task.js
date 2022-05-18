@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { useDispatch } from "react-redux";
-import { edit_task } from "../JS/Actions/ToDosActions";
+import { edit_task } from "../Reduxx/Actions/ToDosActions";
 
 const Task = ({ toEdit }) => {
   const [show, setShow] = useState(false);
